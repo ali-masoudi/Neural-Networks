@@ -16,8 +16,8 @@ a, b, err_l = my_model.calc_err_landscape()
 
 # PLOTTING
 
-f = plt.figure()
-ax = plt.gca()
+f = plt.figure() #Create a new figure
+ax = plt.gca() #Get the current Axes instance on the current figure
 
 xx1, xx2 = np.meshgrid(a, b)
 
